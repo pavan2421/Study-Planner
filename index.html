@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Study Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 Smart Study Planner</h1>
+    <input type="text" id="searchInput" placeholder="Search tasks...">
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <main>
+    <!-- Task Form -->
+    <section id="taskForm">
+      <input type="text" id="subjectInput" placeholder="Subject">
+      <input type="text" id="taskInput" placeholder="Study Task">
+      <input type="date" id="taskDate">
+      <select id="taskPriority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      <button id="addTaskBtn">➕ Add Task</button>
+    </section>
+
+    <!-- Task Filters -->
+    <nav id="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="today">Today</button>
+      <button data-filter="week">This Week</button>
+      <button data-filter="completed">Completed</button>
+    </nav>
+
+    <!-- Task List -->
+    <section id="taskList">
+      <h2>Tasks</h2>
+      <ul id="tasks"></ul>
+    </section>
+
+    <!-- Timeline View -->
+    <section id="timeline">
+      <h2>Study Timeline</h2>
+      <div id="calendar"></div>
+    </section>
+
+    <!-- Progress -->
+    <section id="progress">
+      <h2>Progress</h2>
+      <div id="progressBar"><div id="progressFill"></div></div>
+      <p id="progressText">0% completed</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ using HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
