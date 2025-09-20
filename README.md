@@ -8,15 +8,15 @@ All tasks are stored in the browser’s localStorage, ensuring persistence even 
 
 🚀 Features
 
-✅ Add, Edit, Delete study tasks
-✅ Mark tasks as completed
-✅ Filter tasks → All | Today | This Week | Completed
-✅ Search tasks by subject or title
-✅ Assign priority levels (High/Medium/Low) with color labels
-✅ Calendar Timeline View – highlights days with tasks
-✅ Progress Bar – track % of tasks completed
-✅ Dark/Light Mode toggle (saved in localStorage)
-✅ Works offline (no external DB)
+ Add, Edit, Delete study tasks
+Mark tasks as completed
+Filter tasks → All | Today | This Week | Completed
+ Search tasks by subject or title
+ Assign priority levels (High/Medium/Low) with color labels
+ Calendar Timeline View – highlights days with tasks
+ Progress Bar – track % of tasks completed
+Dark/Light Mode toggle (saved in localStorage)
+ Works offline (no external DB)
 
 🛠️ Tech Stack
 
